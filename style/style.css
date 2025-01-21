@@ -21,8 +21,8 @@
 .nav-links{
   text-decoration: none;
 }
-.navbar, .banner{
-  max-width: 1440px;
+.navbar{
+  max-width: 1160px;
   margin: 0 auto;
   justify-content: space-between;
   align-items: center;
@@ -69,12 +69,58 @@
   
 
 }
+
 .hello{
   padding: 20px 140px;
   gap: 20px;
+ 
+}
+.banner{
+  width: 1200px;
+  padding: 102px 177px 104px;
+ 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ 
+
+  
+   
+}
+.banner-profile{
+  width: 468px;
+}
+.banner-container{
+  gap: 50px;
+  margin-left: 30px;
+}
+.title-color{
+  color: #FEA301;
+  font-size:4rem ;
+  font-weight: bold;
+}
+.title-color-2{
+  font-size:4rem ;
+  font-weight: bold;
+}
+.title-color-3{
+  font-size:4rem ;
+  font-weight: bold;
+  color: #01ACFD;
+}
+.description{
+  font-size:1.5rem;
+}
+.btn-color{
+  background-color: #111111;
+  color: white;
+  font-size:1.5rem ;
+  padding: 10px 47px;
+  border: none;
+  border-radius: 12px;
 }
 @media screen and (max-width:576px) {
-  .navbar, .title, .nav-links{
+  .navbar, .title ,.nav-links, .banner{
     flex-direction: column;
   }
   
